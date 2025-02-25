@@ -3,7 +3,7 @@ import { createContext , useState } from "react";
 export const AppContext = createContext(); // createContext() creates a new context object that will be used to share state across multiple components.
 
   const AppContextProvider = (props)=>{
-    const [user,setUser] = useState(true);
+    const [user,setUser] = useState(null);
 
     const [showLogin , setShowLogin] = useState(false);
 
